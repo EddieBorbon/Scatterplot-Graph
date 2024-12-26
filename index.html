@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scatterplot Graph</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Doping in Professional Bicycle Racing</h1>
+        <h3 id="subtitle">35 Fastest Times Up Alpe d'Huez</h3>
+        <div id="controls">
+            <button id="zoom-in">Zoom In</button>
+            <button id="zoom-out">Zoom Out</button>
+            <select id="filter">
+                <option value="all">All Data</option>
+                <option value="doping">Doping Allegations</option>
+                <option value="no-doping">No Doping Allegations</option>
+            </select>
+        </div>
+        <div id="chart"></div>
+        <div id="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #00ffcc;"></div>
+                <div class="legend-text">No Doping Allegations</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #ff0066;"></div>
+                <div class="legend-text">Doping Allegations</div>
+            </div>
+        </div>
+        <div id="tooltip"></div>
+        <footer>Developed by Eddie Jonathan Garcia Borbon</footer>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
