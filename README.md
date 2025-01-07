@@ -5,6 +5,8 @@
 ## **Project Description**
 This project is an interactive scatterplot visualization of the **35 Fastest Times Up Alpe d'Huez** in professional bicycle racing, with a focus on doping allegations. Built using **D3.js**, the chart provides a modern and futuristic design with advanced features like zooming, filtering, and dynamic tooltips.
 
+Live Demo: [https://eddieborbon.github.io/Scatterplot-Graph/](https://eddieborbon.github.io/Scatterplot-Graph/)
+
 ---
 
 ## **Key Features**
